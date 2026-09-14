@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - LoanEase</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+<div class="container mt-5" style="max-width: 400px;">
+  <div class="card p-4 shadow-sm">
+    <h4 class="text-center fw-bold">Welcome Back</h4>
+    <input id="email" class="form-control mt-3" placeholder="Email" value="test@test.com">
+    <input id="password" type="password" class="form-control mt-2" placeholder="Password" value="1234">
+    <button onclick="login()" class="btn btn-primary w-100 mt-3">Login</button>
+    <p class="small text-center mt-3 text-muted">Mock Mode: Use any email/password to login for demo</p>
+  </div>
+</div>
+<script src="js/auth.js"></script>
+</body>
+</html>
