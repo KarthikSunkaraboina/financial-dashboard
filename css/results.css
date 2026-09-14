@@ -1,0 +1,8 @@
+#emiChart {
+  max-height: 250px;
+  margin-top: 20px;
+}
+#eligibleAmount, #emi {
+  font-weight: 700;
+  color: var(--primary);
+}
